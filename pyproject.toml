@@ -3,5 +3,9 @@ name = "info-bes"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "networkx>=3.6.1",
+    "scapy>=2.6.1",
+]
